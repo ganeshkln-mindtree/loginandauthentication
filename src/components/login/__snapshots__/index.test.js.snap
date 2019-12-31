@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test index test case 1`] = `
+<form
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      for="emailaddress"
+    >
+      Email address
+    </label>
+    <input
+      aria-describedby="emailHelp"
+      className="form-control"
+      id="emailaddress"
+      placeholder="Enter email"
+      type="email"
+    />
+    <small
+      className="form-text text-muted"
+      id="emailHelp"
+    >
+      We'll never share your email with anyone else.
+    </small>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      for="password"
+    >
+      Password
+    </label>
+    <input
+      className="form-control"
+      id="password"
+      placeholder="Password"
+      type="password"
+    />
+  </div>
+  <div
+    className="form-group form-check"
+  >
+    <Link
+      to="/sign-up"
+    >
+      New User
+       
+    </Link>
+  </div>
+  <button
+    className="btn btn-primary"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
